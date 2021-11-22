@@ -913,6 +913,17 @@ header ul .action-btn {
     z-index: 4;
 }
 
+.pricing-card a {
+    display: flex;
+    /* justify-content: flex-end; */
+    position: absolute;
+    right: 0px;
+    bottom: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+}
+
 .pricing-img .pricing-details {
     position: absolute;
     background: transparent;
