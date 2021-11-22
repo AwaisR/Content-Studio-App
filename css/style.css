@@ -884,6 +884,9 @@ header ul .action-btn {
 }
 
 .pricing-card {
+    box-shadow: 39px 86px 92px -21px rgb(242 245 248 / 76%);
+    -webkit-box-shadow: 39px 86px 92px -21px rgb(242 245 248 / 76%);
+    -moz-box-shadow: 39px 86px 92px -21px rgba(242, 245, 248, 0.76);
     position: relative;
     width: 500px;
     height: 500px;
@@ -917,7 +920,7 @@ header ul .action-btn {
     display: flex;
     /* justify-content: flex-end; */
     position: absolute;
-    right: 0px;
+    right: 38px;
     bottom: 30px;
     font-size: 24px;
     font-weight: 600;
